@@ -34,5 +34,6 @@ class OpensearchControllerTest extends TestCase
 </OpenSearchDescription>
 EOF;
         $this->assertEquals($expected, trim($response->getContent()));
+        $this->assertEquals('text/xml', $response->headers->get('Content-Type'));
     }
 }

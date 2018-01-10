@@ -14,6 +14,6 @@ class OpensearchController extends BaseController
     public function index()
     {
         $content = view('opensearch::xml', config('opensearch'))->render();
-        return response($content, 200);
+        return response($content, 200)->header('Content-Type', 'text/xml');
     }
 }
