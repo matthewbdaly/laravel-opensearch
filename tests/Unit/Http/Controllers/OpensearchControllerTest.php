@@ -33,6 +33,6 @@ class OpensearchControllerTest extends TestCase
       template="http://example.com/search?q={searchTerms}"/>
 </OpenSearchDescription>
 EOF;
-        $this->assertEquals($expected, trim($response));
+        $this->assertEquals($expected, trim($response->getContent()));
     }
 }

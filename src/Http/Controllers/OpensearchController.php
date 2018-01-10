@@ -13,6 +13,7 @@ class OpensearchController extends BaseController
 
     public function index()
     {
-        return view('opensearch::xml', config('opensearch'))->render();
+        $content = view('opensearch::xml', config('opensearch'))->render();
+        return response($content, 200);
     }
 }
