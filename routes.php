@@ -1,5 +1,3 @@
 <?php
 
-// Needs web middleware
-Route::group(['middleware' => ['web']], function () {
-});
+Route::get('opensearch.xml', 'Matthewbdaly\LaravelOpensearch\Http\Controllers\OpensearchController@index');
