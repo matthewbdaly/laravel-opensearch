@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Matthewbdaly\\LaravelPackageBoilerplate\\": "src/"
+            "Matthewbdaly\\LaravelOpensearch\\": "src/"
         }
     },
     "autoload-dev": {
@@ -49,7 +49,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Matthewbdaly\\LaravelPackageBoilerplate\\Providers\\ServiceProvider"
+                "Matthewbdaly\\LaravelOpensearch\\Providers\\ServiceProvider"
             ]
         }
     }
