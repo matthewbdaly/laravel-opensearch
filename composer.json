@@ -1,8 +1,8 @@
 {
-    "name": "matthewbdaly/laravel-package-boilerplate",
-    "description": "Starting boilerplate for Laravel packages. Override the content in here when creating your own package",
+    "name": "matthewbdaly/laravel-opensearch",
+    "description": "Opensearch implementation for Laravel",
     "type": "library",
-    "keywords": ["laravel","lumen"],
+    "keywords": ["laravel","lumen", "search", "opensearch"],
     "require": {},
     "require-dev": {
         "orchestra/testbench": "3.5",
@@ -28,18 +28,6 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "scripts": {
-        "post-create-project-cmd": [
-            "php -r \"mkdir('bootstrap');\"",
-            "php -r \"mkdir('bootstrap'.DIRECTORY_SEPARATOR.'cache');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Controllers');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'Http'.DIRECTORY_SEPARATOR.'Middleware');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'factories');\"",
-            "php -r \"mkdir('src'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'migrations');\"",
-            "php -r \"mkdir('routes');\""
-        ]
     },
     "config": {
         "preferred-install": "dist",
