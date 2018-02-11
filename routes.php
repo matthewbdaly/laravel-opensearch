@@ -1,3 +1,3 @@
 <?php
 
-Route::get('opensearch.xml', 'Matthewbdaly\LaravelOpensearch\Http\Controllers\OpensearchController@index');
+Route::get('opensearch', 'Matthewbdaly\LaravelOpensearch\Http\Controllers\OpensearchController@index');
