@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+{!! $xmlVersion !!}
 <OpenSearchDescription xmlns:moz="http://www.mozilla.org/2006/browser/search/"
    xmlns="http://a9.com/-/spec/opensearch/1.1/">
    <ShortName>{{ $shortname }}</ShortName>
